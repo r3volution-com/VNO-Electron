@@ -1,0 +1,68 @@
+<main id="game">
+	<div class="left">
+		<div id="background">
+			<div class="pj pj-left" id="pj-left" ><img/></div>
+			<div class="pj pj-right" id="pj-right"><img /></div>
+			<div class="text">
+				<div id="name" class="name nleft"></div>
+				<div id="text" class="black"></div>
+			</div>
+		</div>
+		<input type="text" id="textHMessage"/>
+		<input type="button" value="Enviar" id="btnSendHMessage"/>
+		<a href="#!" class="button disabled" id="btnSendSfx" alt="SFX" title="SFX"><i class="material-icons">speaker</i></a>
+		<div class="button black" id="btnChangeColor">
+			<i class="material-icons">format_color_text</i>
+			<div class="colorSelector">
+				<a href="#!" class="color black"></a>
+				<a href="#!" class="color grey"></a>
+				<a href="#!" class="color blue"></a>
+				<a href="#!" class="color green"></a>
+				<a href="#!" class="color yellow"></a>
+				<a href="#!" class="color red"></a>
+				<a href="#!" class="color purple"></a>
+				<a href="#!" class="color pink"></a>
+				<a href="#!" class="color orange"></a>
+				<a href="#!" class="color brown"></a>
+			</div>
+		</div>
+		<div id="expressionlist"></div>
+	</div>
+	<div class="right">
+		<div id="tab-content">
+			<div id="history">
+				<div id="history-content"></div>
+			</div>
+			<div id="chat">
+				<div id="chat-content"></div>
+				<input type="text" id="textCMessage"/>
+				<input type="button" value="Enviar" id="btnSendCMessage"/>
+			</div>
+			<div id="events">
+				<div id="events-content"></div>
+				<!--<input type="text" id="textCMessage"/>
+				<input type="button" value="Enviar" id="btnSendCMessage"/>-->
+			</div>
+			<div id="errors">
+				<div id="errors-content"></div>
+				<!--<input type="text" id="textCMessage"/>
+				<input type="button" value="Enviar" id="btnSendCMessage"/>-->
+			</div>
+		</div>
+		<div id="tabs" class="tabs">
+			<a href="#!" class="active" id="history-tab">Historial</a>
+			<a href="#!" id="chat-tab">Chat</a>
+			<a href="#!" id="events-tab">Eventos</a>
+			<a href="#!" id="errors-tab">Errores</a>
+		</div>
+		<div class="buttons">
+			<a href="#!" class="button" id="changeSide">Izquierda</a>
+			<a href="#!" class="button" id="changeOrientation">No espejado</a>
+			<a href="#!" class="button last" id="changeCharacter">Cambiar personaje</a>
+			<a href="#!" class="button" id="toggle-events">Ver eventos</a>
+			<a href="#!" class="button" id="toggle-errors">Ver errores</a>
+			<a href="#!" class="button disabled last" id="openMusicControl">Música</a>
+	</div>
+</main>
+<main id="selectCharacter"><h1>Elige un personaje</h1><div id="pjBanner"><img src="web-resources/images/no_bigart.png"/></div><div id="pjList"></div></main>
+<footer><a href="#!" id="logout">Cerrar Sesión</a></footer>
